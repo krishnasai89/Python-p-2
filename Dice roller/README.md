@@ -13,3 +13,10 @@ Use Python’s random.randint() to simulate the rolling events.
 # Generate ASCII Diagram: 
 
 Display an ASCII representation of the dice faces after each roll.
+
+
+You have used a dictionary dic_art to store the graphical representation of each dice face. This is a good approach.
+
+You have used a for loop to generate the random numbers for each dice and store them in a list dice. This is a good way to simulate the rolling of multiple dice.
+
+You have used another for loop to print the graphical representation of each dice face. This is a good way to display the result.
