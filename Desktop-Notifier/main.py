@@ -1,5 +1,4 @@
 from plyer import notification
-import time
 
 title = 'Hi, Hello and Hi !'
 
