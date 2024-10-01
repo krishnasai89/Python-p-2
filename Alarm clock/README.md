@@ -3,6 +3,11 @@
 ```terminal
 pip install pygame
 ```
+*Now that we have the packages, we are ready to import it in our python script.*
+```py
+from time import sleep 
+```
+
 # Pygame offers a bunch of cool features:
 
  # Graphics: 
