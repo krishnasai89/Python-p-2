@@ -9,7 +9,7 @@ pip install pygame
     Create dynamic 2D graphics with ease. Think images, rectangles, and even polygon shapes.
 
  # Sound: 
-   Add sound effects and background music effortlessly.
+    Add sound effects and background music effortlessly.
 
 # Setting the Scene: 
 
