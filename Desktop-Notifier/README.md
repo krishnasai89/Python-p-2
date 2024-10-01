@@ -5,7 +5,7 @@
 
 - **1.requests** :
 
-in case you want to fetch data from the web
+ *in case you want to fetch data from the web*
 
 ```terminal
  pip install requests
@@ -13,7 +13,7 @@ in case you want to fetch data from the web
 
 - **2. plyer** :
 
-For creating notifications on your PC
+*For creating notifications on your PC*
 
 ```terminal
 pip install plyer
