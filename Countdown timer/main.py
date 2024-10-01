@@ -1,4 +1,4 @@
-from time import *
+from time import sleep
 
 my_time = int(input("Enter the time in seconds: "))
 
