@@ -1,7 +1,8 @@
-# install pygame
+## Installing required python packages 
 
+```terminal
 pip install pygame
-
+```
 # Pygame offers a bunch of cool features:
 
  # Graphics: 
