@@ -8,7 +8,7 @@ pip install skechpy
 ```py
 from sketchpy import canvas
 ```
-- canvas: to create a drawing surface within your application.It’s like having a blank canvas where you can place various graphical elements: lines, rectangles, ovals, polygons, text, and images.
+- canvas : to create a drawing surface within your application.It’s like having a blank canvas where you can place various graphical elements: lines, rectangles, ovals, polygons, text, and images.
 
-## output
+## OUTPUT:
 ![image desc](./sketch.png)
