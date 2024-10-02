@@ -6,5 +6,5 @@ pip install sketchpy
 ```
 *Now that we have the packages, we are ready to import it in our python script.*
 ```py
-import sketchpy
+import sketchpy.library
 ```
