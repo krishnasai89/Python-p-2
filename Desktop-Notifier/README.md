@@ -34,24 +34,14 @@ from plyer import notification
 
 title = 'Hi, Hello and Hi !'
 
-message= 'If u reading this ~I LOVE U TO THE MOON AND BACK !!'
+message = 'If u reading this ~I LOVE U TO THE MOON AND BACK !!'
 
-notification.notify(title= title,
-                    message= message,
-                    app_icon = "heart.ico",
-                    timeout= 15,
-                    toast= False)
-
-time.sleep(60*60)
+notification.notify(title = title,
+                    message = message,
+                    timeout = 5)
 ```
 
 Parameters:
 
 - `title (str`) : Title of the notification
 - `message (str)` : Message of the notification
-- `app_name (str)` : Name of the app launching this notification
-- `app_icon (str)` : Icon to be displayed along with the message
-- `timeout (int)` : time to display the message for, defaults to 10
-- `time.sleep` : After displaying a notification, we will make it sleep for 1 hour or 60 minutes. You can choose a different interval.
-- `ticker (str)` : text to display on status bar as the notification arrives
-- `toast (bool)` : simple Android message instead of full notification
