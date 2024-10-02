@@ -17,7 +17,7 @@ import qrcode
 
 - Importing the qrcode Module:
 
-*The line import qrcode brings in the qrcode module, which allows you to generate QR codes from any kind of data.*
+* The line import qrcode brings in the qrcode module, which allows you to generate QR codes from any kind of data. *
 
 - Generating the QR Code:
 
