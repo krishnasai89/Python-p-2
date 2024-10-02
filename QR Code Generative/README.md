@@ -1,12 +1,17 @@
 ## Installing required python packages
-- qrcode:*qrcode library is a pure Python QR code generator that allows you to create QR codes effortlessly. It’s like having a digital stencil for encoding information*
+
+- qrcode:
+*qrcode library is a pure Python QR code generator that allows you to create QR codes effortlessly. It’s like having a digital stencil for encoding information*
+
 ```terminal
 pip install qrcode
 ```
+
 *Now that we have the packages, we are ready to import it in our python script.*
 ```py
 import qrcode
 ```
+
 ## OUTPUT:
 ![image desc](./QRcode.png)
 
