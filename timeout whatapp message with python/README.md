@@ -27,10 +27,9 @@ You’ve provided the following parameters:
 
 - Time:  *hour and minute, which corresponds to time.*
 
-*The message will be sent at the specified time./*
+*The message will be sent at the specified time.*
 ### 3.Confirmation:
 *Your code doesn’t explicitly print a confirmation, but it successfully schedules the WhatsApp message.*
 
 ## output:
-
 ![text](./PyWhatKit_DB.txt)
