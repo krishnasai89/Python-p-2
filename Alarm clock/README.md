@@ -10,11 +10,11 @@ import time,datetime,pygame
 
 ## Pygame offers a bunch of cool features:
 
- ## Graphics: 
-    Create dynamic 2D graphics with ease. Think images, rectangles, and even polygon shapes.
+ - Graphics: 
+    *Create dynamic 2D graphics with ease. Think images, rectangles, and even polygon shapes.*
 
- ## Sound: 
-    Add sound effects and background music effortlessly.
+ - Sound: 
+    *Add sound effects and background music effortlessly.*
 
 ## Setting the Scene: 
 
