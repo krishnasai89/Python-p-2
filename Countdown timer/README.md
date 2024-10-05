@@ -8,7 +8,7 @@ pip install time
 ```py
 from time import sleep
 ```
-### - You’ve got your baton ready: 
+### You’ve got your baton ready: 
 
 *You’ve imported the time module—nice choice! It’s like having a trusty metronome for your seconds.*
 
