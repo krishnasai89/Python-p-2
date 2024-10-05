@@ -1,5 +1,5 @@
 # Installing required python packages
-we need to download two important packages for this application.
+we need to download important packages for this application.
 
 Open your terminal and run the following command.
 - sketchpy:
