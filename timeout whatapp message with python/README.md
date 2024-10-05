@@ -5,8 +5,8 @@ Open your terminal and run the following command
 - pywhatkit:
 *This will install the pywhatkit package which is used to send messages and make calls using python.*
 
-``terminal
-pip install pywhatkit
+```terminal
+ pip install pywhatkit
 ```
 ##  pywhatkit:
     *This will download and install the pywhatkit library, which is a powerful tool for WhatsApp automation and other useful features. With pywhatkit, you can send messages, images, and videos on WhatsApp, play YouTube videos, convert images to ASCII art, and even remotely control your PC using your phone (Windows only). It’s like having a Swiss Army knife for Python!*
