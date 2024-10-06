@@ -1,35 +1,54 @@
-# TIC_TAC_TOE
+# Installing required Python packages
+we need to download important packages for this application.
 
-We have a Player class, which serves as a blueprint for both human and computer players. Each player has a letter—either ‘X’ or ‘O’—to represent their moves.
+Open your terminal and run the following command.
 
-The RandomComputerPlayer class is a delightful little creation. It’s like a mischievous sprite that randomly selects an available square on the board for its move. 🎲
+- player:
+```terminal
+pip install play
+```
 
-And then there’s the HumanPlayer. Ah, the noble human! This player interacts with the game through the console, inputting their desired move. But beware, for it checks if the chosen square is valid. If not, it gently nudges the player to try again. 🤓
+*Now that we have the packages, we are ready to import it in our python script.*
 
-# Game Board (Tictactoe class):
+```py
+from player import HumanPlayer, RandomComputerPlayer
+import math
+import random
+```
+### TIC_TAC_TOE
 
-The Tictactoe class initializes an empty 3x3 board (represented by a list of 9 elements).
+- *We have a Player class, which serves as a blueprint for both human and computer players. Each player has a letter—either ‘X’ or ‘O’—to represent their moves.*
 
-It keeps track of the current winner (if any).
+- *The RandomComputerPlayer class is a delightful little creation. It’s like a mischievous sprite that randomly selects an available square on the board for its move. 🎲*
 
-Methods like print_board, print_board_nums, available_moves, empty_squares, num_empty_squares, and make_move handle various aspects of the game.
+- *And then there’s the HumanPlayer. Ah, the noble human! This player interacts with the game through the console, inputting their desired move. But beware, for it checks if the chosen square is valid. If not, it gently nudges the player to try again. 🤓*
 
-# Winning Logic (winner method):
+### Game Board (Tictactoe class):
 
-The winner method checks if a player has won by examining rows, columns, and diagonals.
+- *The Tictactoe class initializes an empty 3x3 board (represented by a list of 9 elements).*
 
-It uses the modulo operator to identify diagonals.
+- *It keeps track of the current winner (if any).*
 
-# Game Flow (play function):
+- *Methods like print_board, print_board_nums, available_moves, empty_squares, num_empty_squares, and make_move handle various aspects of the game.*
 
-The play function alternates between the human player and the computer player.
+### - Winning Logic (winner method):
 
-It prints the board and the moves made.
+- *The winner method checks if a player has won by examining rows, columns, and diagonals.*
 
-If there’s a winner, it announces the result; otherwise, it declares a tie.
+- *It uses the modulo operator to identify diagonals.*
 
-Now, let’s play a virtual round! You’re “x,” and I’ll be the random computer player (“o”). Here’s the initial board
+### - Game Flow (play function):
+
+- *The play function alternates between the human player and the computer player.*
+
+- *It prints the board and the moves made.*
+
+- *If there’s a winner, it announces the result; otherwise, it declares a tie.*
+
+- *Now, let’s play a virtual round! You’re “x,” and I’ll be the random computer player (“o”). Here’s the initial board*
 
 |0|1|2|
+
 |3|4|5|
+
 |6|7|8|
