@@ -2,6 +2,7 @@
 --------------------------------
 ## Install required packages using pip
 - **nltk(Natural Language Toolkit):**
+  
 *NLTK is a leading platform for building python programs to work with human language data*
 
 ```terminal
