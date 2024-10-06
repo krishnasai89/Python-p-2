@@ -15,7 +15,7 @@ from player import HumanPlayer, RandomComputerPlayer
 import math
 import random
 ```
-### TIC_TAC_TOE
+- ### TIC_TAC_TOE
 
 - *We have a Player class, which serves as a blueprint for both human and computer players. Each player has a letter—either ‘X’ or ‘O’—to represent their moves.*
 
@@ -31,13 +31,13 @@ import random
 
 - *Methods like print_board, print_board_nums, available_moves, empty_squares, num_empty_squares, and make_move handle various aspects of the game.*
 
-### - Winning Logic (winner method):
+- ###  Winning Logic (winner method):
 
 - *The winner method checks if a player has won by examining rows, columns, and diagonals.*
 
 - *It uses the modulo operator to identify diagonals.*
 
-### - Game Flow (play function):
+- ###  Game Flow (play function):
 
 - *The play function alternates between the human player and the computer player.*
 
