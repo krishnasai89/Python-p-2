@@ -1,31 +1,46 @@
-# install zxcvbn:
+# Installing required Python packages
 
- pip install zxcvbn
+we need to download two important packages for this application.
 
- You can now use the zxcvbn() function to analyze the strength of a password. Pass the password as the first parameter, and optionally provide a list of user-provided inputs (such as names or other context) as the user_inputs parameter.
+Open your terminal and run the following command.
 
-# install getpass:
+- zxcvbn:
 
- pip install getpass
+   *You can now use the zxcvbn() function to analyze the strength of a password. Pass the password as the first parameter, and optionally provide a list of user-provided inputs (such as names or other context) as the user_inputs parameter.*
+  
+```terminal
+pip install zxcvbn
+```
 
- You can now use the getpass.getpass() function to securely read passwords without displaying them on the screen.
+- getpass:
+  
+ *You can now use the getpass.getpass() function to securely read passwords without displaying them on the screen.*
+ 
+```terminal
+pip install getpass
+```
+*Now that we have the packages, we are ready to import it in our python script.*
 
-# 1.Importing the zxcvbn Module:
+```py
+from zxcvbn import zxcvbn
+```
 
- The line from zxcvbn import zxcvbn brings in the zxcvbn module, which is a realistic password strength estimator.
+##  - Importing the zxcvbn Module:
 
- The original zxcvbn library was written in JavaScript by the team at Dropbox.
+ *The line from zxcvbn import zxcvbn brings in the zxcvbn module, which is a realistic password strength estimator.*
 
-# 2.Checking Password Strength:
+ *The original zxcvbn library was written in JavaScript by the team at Dropbox.*
 
- The user is prompted to enter a password (securely, without echoing it on the screen).
+##  - Checking Password Strength:
 
- The zxcvbn() function analyzes the password and provides the following information:
+ *The user is prompted to enter a password (securely, without echoing it on the screen).*
 
- The password itself.
+ *The zxcvbn() function analyzes the password and provides the following information:
 
- A score (from 0 to 4) indicating its strength.
+ The password itself.*
 
- An estimate of how long it would take to crack the password in different scenarios.
+ *A score (from 0 to 4) indicating its strength.*
 
- Feedback and suggestions for improving the password.
+ *An estimate of how long it would take to crack the password in different scenarios.*
+
+ *Feedback and suggestions for improving the password.*
