@@ -15,7 +15,7 @@ from player import HumanPlayer, RandomComputerPlayer
 import math
 import random
 ```
-- ### TIC_TAC_TOE
+### - TIC_TAC_TOE
 
 - *We have a Player class, which serves as a blueprint for both human and computer players. Each player has a letter—either ‘X’ or ‘O’—to represent their moves.*
 
@@ -23,7 +23,7 @@ import random
 
 - *And then there’s the HumanPlayer. Ah, the noble human! This player interacts with the game through the console, inputting their desired move. But beware, for it checks if the chosen square is valid. If not, it gently nudges the player to try again. 🤓*
 
-### Game Board (Tictactoe class):
+### - Game Board (Tictactoe class):
 
 - *The Tictactoe class initializes an empty 3x3 board (represented by a list of 9 elements).*
 
@@ -31,7 +31,7 @@ import random
 
 - *Methods like print_board, print_board_nums, available_moves, empty_squares, num_empty_squares, and make_move handle various aspects of the game.*
 
-- ###  Winning Logic (winner method):
+### - Winning Logic (winner method):
 
 - *The winner method checks if a player has won by examining rows, columns, and diagonals.*
 
