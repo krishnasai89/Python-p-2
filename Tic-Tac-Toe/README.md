@@ -37,7 +37,7 @@ import random
 
 - *It uses the modulo operator to identify diagonals.*
 
-- ###  Game Flow (play function):
+### - Game Flow (play function):
 
 - *The play function alternates between the human player and the computer player.*
 
