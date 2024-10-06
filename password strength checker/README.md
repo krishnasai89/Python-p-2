@@ -35,9 +35,9 @@ from zxcvbn import zxcvbn
 
  *The user is prompted to enter a password (securely, without echoing it on the screen).*
 
- *The zxcvbn() function analyzes the password and provides the following information:
+ *The zxcvbn() function analyzes the password and provides the following information:*
 
- The password itself.*
+ *The password itself.*
 
  *A score (from 0 to 4) indicating its strength.*
 
