@@ -1,19 +1,25 @@
-# Rock Paper Scissors
+## Now that we have the packages, we are ready to import it in our python script.
 
-You’ve defined a function called play(). This function takes user input (either ‘r’ for rock, ‘p’ for paper, or ‘s’ for scissors) and generates a random choice for the computer.
+```py
+import random
+```
 
-If the user’s choice matches the computer’s choice, it’s a tie.
+### Rock Paper Scissors
 
-Otherwise, you have another function called is_win(player, opponent) that determines whether the player wins based on the rock-paper-scissors rules.
+- You’ve defined a function called play(). This function takes user input (either ‘r’ for rock, ‘p’ for paper, or ‘s’ for scissors) and generates a random choice for the computer.
 
-Now, let’s play it out! You chose… 🥁
+- If the user’s choice matches the computer’s choice, it’s a tie.
 
-drumroll
+- Otherwise, you have another function called is_win(player, opponent) that determines whether the player wins based on the rock-paper-scissors rules.
 
-Rock!
+- Now, let’s play it out! You chose… 🥁
 
-And the computer chose… 🎲
+- drumroll
 
-Scissors!
+- Rock!
 
-Congratulations! You win this round! 🎉
+- And the computer chose… 🎲
+
+- Scissors!
+
+- Congratulations! You win this round! 🎉
