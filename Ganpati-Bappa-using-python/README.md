@@ -1,37 +1,47 @@
-# 1.Setting Up the Environment:
+## Now that we have the packages, we are ready to import it in our python script.
 
-The from turtle import * line imports the turtle module, which provides a way to create graphics using a virtual “turtle.”
+- turtle:
+  *turtle for creative coding,If you’re having trouble installing it, don't worry, turtle comes pre-installed with Python. You should be able to use it without needing to install anything.*
+  
+```py
+from turtle import *
+```
 
-The title('CoderHuBhai') sets the title of the turtle graphics window.
 
-The bgcolor("black") sets the background color to black.
+### - Setting Up the Environment:
 
-The speed(4) sets the drawing speed (4 is moderate).
+- *The from turtle import * line imports the turtle module, which provides a way to create graphics using a virtual “turtle.”*
 
-# 2.Drawing the Turtle Art:
+- *The title('CoderHuBhai') sets the title of the turtle graphics window.*
 
-The code defines a function called CoderHu(x, y) that moves the turtle cursor to the specified coordinates (x, y).
+- *The bgcolor("black") sets the background color to black.*
 
-The turtle then draws various shapes, including the trunk, eyes, tilak, crown, legs, and hands.
+- *The speed(4) sets the drawing speed (4 is moderate).*
 
-Each shape is drawn using a combination of circle, forward, left, and other turtle commands.
+### - Drawing the Turtle Art:
 
-Colors are set using pencolor and fillcolor.
+- *The code defines a function called CoderHu(x, y) that moves the turtle cursor to the specified coordinates (x, y).*
 
-The begin_fill() and end_fill() commands are used to fill shapes with color.
+- *The turtle then draws various shapes, including the trunk, eyes, tilak, crown, legs, and hands.*
 
-# 3.Creating Symmetry:
+- *Each shape is drawn using a combination of circle, forward, left, and other turtle commands.*
 
-The left and right ears, legs, and hands are drawn symmetrically.
+- *Colors are set using pencolor and fillcolor.*
 
-# 4.Finishing Touches:
+- *The begin_fill() and end_fill() commands are used to fill shapes with color.*
 
-The turtle’s position is reset to the center using home().
+### - Creating Symmetry:
 
-The screen is cleared using clearscreen().
+*The left and right ears, legs, and hands are drawn symmetrically.*
 
-# 5.Hiding the Turtle Cursor:
+### - Finishing Touches:
 
-The hideturtle() command hides the turtle cursor.
+- *The turtle’s position is reset to the center using home().*
 
-The done() command keeps the drawing window open until the user closes it.
+- *The screen is cleared using clearscreen().*
+
+###   - Hiding the Turtle Cursor:
+
+- *The hideturtle() command hides the turtle cursor.*
+
+- *The done() command keeps the drawing window open until the user closes it.*
