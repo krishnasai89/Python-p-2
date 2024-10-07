@@ -5,5 +5,5 @@
 import random
 ```
 
-## - Output:
+## - Output-1:
    *A long time ago, a rabbit that lived in Venice, went to the school and made a lot of friends*
