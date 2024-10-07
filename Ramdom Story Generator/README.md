@@ -1,4 +1,5 @@
 # Ramdom story Generator
+
 ## *Now that we have the packages, we are ready to import it in our python script.*
 
 ```py

@@ -1,5 +1,7 @@
 ## Installing required python packages
+*we need to download important packages for this application.*
 
+*Open your terminal and run the following command.*
 - qrcode:
 *qrcode library is a pure Python QR code generator that allows you to create QR codes effortlessly. It’s like having a digital stencil for encoding information*
 

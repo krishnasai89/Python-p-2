@@ -7,3 +7,6 @@
 ```py
 import turtle as t
 ```
+
+#### output:
+![image desc](./output.png.png)
